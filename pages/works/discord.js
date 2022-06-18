@@ -24,7 +24,7 @@ import {
           </ListItem>
           <ListItem>
             <Meta>Stack</Meta>
-            <span>NodeJS, Typescript, MongoDB, API's, Google sheets</span>
+            <span>NodeJS, Typescript, MongoDB, API&apos;s, Google sheets</span>
           </ListItem>
         </List>
   
