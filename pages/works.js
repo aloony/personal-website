@@ -7,6 +7,7 @@ import thumbB2B from '../public/images/works/b2b_eyecatch.png'
 import thumbCryptoFarm from '../public/images/works/crypto-farm_eyecatch.png'
 import thumbDiscord from '../public/images/works/discord_eyecatch.png'
 import thumbPortfolio from '../public/images/works/portfolio_eyecatch.png'
+import thumbWierdMerch from '../public/images/works/wierdmerch_eyecatch.jpg'
 
 const Works = () => (
   <Layout title="Works">
@@ -32,9 +33,14 @@ const Works = () => (
             A B2B marketplace app with chat and personal pricings for each buyer
           </WorkGridItem>
         </Section>
-        <Section>
+        {/* <Section>
           <WorkGridItem id="portfolio" title="Portfolio Website" thumbnail={thumbPortfolio}>
             This exact website)
+          </WorkGridItem>
+        </Section> */}
+        <Section>
+          <WorkGridItem id="wierdmerch" title="Wierd Merch" thumbnail={thumbWierdMerch}>
+            Custom clothing marketplace
           </WorkGridItem>
         </Section>
       </SimpleGrid>
