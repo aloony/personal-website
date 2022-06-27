@@ -13,7 +13,7 @@ import {
     <Layout title="Discord">
       <Container>
         <Title>
-          Wierd Merch <Badge>2021</Badge>
+          Weird Merch <Badge>2021</Badge>
         </Title>
         <P>
         A Project, that provides an opportunity to create custom clothing, in other words, you choose a thing from the catalog or send your own.<br/>
