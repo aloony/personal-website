@@ -6,7 +6,7 @@ import { WorkGridItem } from '../components/grid-item'
 import thumbB2B from '../public/images/works/b2b_eyecatch.png'
 import thumbCryptoFarm from '../public/images/works/crypto-farm_eyecatch.png'
 import thumbDiscord from '../public/images/works/discord_eyecatch.png'
-import thumbPortfolio from '../public/images/works/portfolio_eyecatch.png'
+// import thumbPortfolio from '../public/images/works/portfolio_eyecatch.png'
 import thumbWierdMerch from '../public/images/works/wierdmerch_eyecatch.jpg'
 
 const Works = () => (
