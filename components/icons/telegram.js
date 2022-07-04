@@ -1,4 +1,4 @@
-const IoLogoTelegram = props => (
+const IoLogoTelegram = () => (
   <svg
     width="16px"
     height="16px"
