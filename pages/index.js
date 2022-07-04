@@ -7,7 +7,7 @@ import {
   Button,
   List,
   ListItem,
-  useColorModeValue,
+  useColorModeValue
 } from '@chakra-ui/react'
 import { ChevronRightIcon } from '@chakra-ui/icons'
 import Paragraph from '../components/paragraph'
@@ -15,6 +15,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoGithub, IoLogoGoogle } from 'react-icons/io5'
+import IoLogoTelegram from '../components/icons/telegram'
 
 // const ProfileImage = chakra(Image, {
 //   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -73,10 +74,10 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Georgiy is a freelance and a full-stack developer based in Kaliningrad with a
-          passion for building digital services/stuff he wants. He has a knack
-          for all things launching products, from planning and designing all the
-          way to solving real-life problems with code.
+          Georgiy is a freelance and a full-stack developer based in Kaliningrad
+          with a passion for building digital services/stuff he wants. He has a
+          knack for all things launching products, from planning and designing
+          all the way to solving real-life problems with code.
         </Paragraph>
         <Box align="center" my={4}>
           <NextLink href="/works" passHref scroll={false}>
@@ -97,9 +98,8 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
-          Started mastering art of code and design,
-          making simple programs in compiling languages (c, c++),
-          creating 3d models, games and much more)
+          Started mastering art of code and design, making simple programs in
+          compiling languages (c, c++), creating 3d models, games and much more)
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
@@ -116,10 +116,7 @@ const Home = () => (
           I ♥
         </Heading>
         <Paragraph>
-          Art, Music,{' '}
-          Drawing,{' '}
-          Playing Piano,{' '}
-          Machine Learning
+          Art, Music, Drawing, Playing Piano, Machine Learning
         </Paragraph>
       </Section>
 
@@ -147,6 +144,17 @@ const Home = () => (
                 leftIcon={<IoLogoGoogle />}
               >
                 npp3rzwi@gmail.com
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://t.me/aloonyyy" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTelegram />}
+              >
+                @aloonyyy
               </Button>
             </Link>
           </ListItem>
