@@ -16,6 +16,7 @@ import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { IoLogoGithub, IoLogoGoogle } from 'react-icons/io5'
 import IoLogoTelegram from '../components/icons/telegram'
+import IoLogoHackerone from '../components/icons/hackerone'
 
 // const ProfileImage = chakra(Image, {
 //   shouldForwardProp: prop => ['width', 'height', 'src', 'alt'].includes(prop)
@@ -132,7 +133,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @aloony
+                github
               </Button>
             </Link>
           </ListItem>
@@ -154,7 +155,18 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoTelegram />}
               >
-                @aloonyyy
+                telegram
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://hackerone.com/aloony" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoHackerone />}
+              >
+                hackerone
               </Button>
             </Link>
           </ListItem>
