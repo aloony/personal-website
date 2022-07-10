@@ -1,9 +1,4 @@
-import {
-  Container,
-  Badge,
-  List,
-  ListItem,
-} from '@chakra-ui/react'
+import { Container, Badge, List, ListItem } from '@chakra-ui/react'
 import { Title, WorkImage, Meta } from '../../components/work'
 import P from '../../components/paragraph'
 import Layout from '../../components/layouts/article'
@@ -15,16 +10,21 @@ const Work = () => (
         B2B Marketplace <Badge>2022</Badge>
       </Title>
       <P>
-        A B2B marketplace app with personal pricings for each buyer and embedded full-featured chat. Website and mobile application for both Android and IOS
+        A B2B marketplace app with personal pricings for each buyer and embedded
+        full-featured chat. Website and mobile application for both Android and
+        IOS
       </P>
       <List ml={4} my={4}>
         <ListItem>
           <Meta>Platform</Meta>
-          <span>Windows/macOS/Linux/iOS/Android</span>
+          <span>Web/Android/IOS</span>
         </ListItem>
         <ListItem>
           <Meta>Stack</Meta>
-          <span>NodeJS, Fastify, React, React Native Expo, MongoDB, Redux Saga</span>
+          <span>
+            Django, PostgreSQL, Celery, NodeJS, Fastify, React, React Native
+            Expo, MongoDB, Redux Saga
+          </span>
         </ListItem>
       </List>
 
