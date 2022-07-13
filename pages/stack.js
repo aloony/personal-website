@@ -33,7 +33,7 @@ const stack = [
   'Tailwindcss',
   'Linux',
   'Design Patterns',
-  'Browser AUtomation',
+  'Browser Automation',
   'OpenCV'
 ].join(' • ')
 
