@@ -107,8 +107,16 @@ const Home = () => (
           Worked as a Cyber Security Analyst on various hacking platforms.
         </BioSection>
         <BioSection>
-          <BioYear>2020 to present</BioYear>
-          Working as a freelancer
+          <BioYear>2020</BioYear>
+          Working as a freelance Developer on various freelancing platforms.
+        </BioSection>
+        <BioSection>
+          <BioYear>2022 to present</BioYear>
+          Working at{' '}
+          <NextLink href="https://itexp.pro" passHref>
+            <Link target="_blank">IT Expert</Link>
+          </NextLink>{' '}
+          as a Python Backend Developer
         </BioSection>
       </Section>
 
