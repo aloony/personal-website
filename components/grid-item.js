@@ -2,6 +2,7 @@ import NextLink from 'next/link'
 import Image from 'next/image'
 import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
+import YouTube from 'react-youtube'
 
 export const GridItem = ({ children, href, title, thumbnail }) => (
   <Box w="100%" textAlign="center">
@@ -18,6 +19,17 @@ export const GridItem = ({ children, href, title, thumbnail }) => (
       </LinkOverlay>
       <Text fontSize={14}>{children}</Text>
     </LinkBox>
+  </Box>
+)
+
+export const PlayerGridItem = ({ children, videoId, opts }) => (
+  <Box w={'100%'} textAlign="center">
+    <YouTube
+      opts={opts}
+      videoId={videoId}
+      onReady={event => event.target.pauseVideo()}
+    />
+    <Text fontSize={14}>{children}</Text>
   </Box>
 )
 

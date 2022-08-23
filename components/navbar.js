@@ -77,6 +77,9 @@ const Navbar = props => {
           <LinkItem href="/stack" path={path}>
             Stack
           </LinkItem>
+          <LinkItem href="/topics" path={path}>
+            Topics
+          </LinkItem>
           <LinkItem
             target="_blank"
             href="https://github.com/aloony/personal-website"
@@ -111,6 +114,9 @@ const Navbar = props => {
                 </NextLink>
                 <NextLink href="/stack" passHref>
                   <MenuItem as={Link}>Stack</MenuItem>
+                </NextLink>
+                <NextLink href="/topics" passHref>
+                  <MenuItem as={Link}>Topics</MenuItem>
                 </NextLink>
                 <MenuItem
                   as={Link}
