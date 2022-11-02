@@ -23,6 +23,7 @@ const Main = ({ children, router }) => {
         <meta property="og:site_name" content="Georgiy Randuyk" />
         <meta name="og:title" content="Georgiy Randuyk" />
         <meta property="og:type" content="website" />
+        <meta name="yandex-verification" content="7c32e70c9ef3c69b" />
         <title>Georgiy Randuyk - Homepage</title>
       </Head>
 
