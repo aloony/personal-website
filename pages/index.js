@@ -75,7 +75,7 @@ const Home = () => (
           Work
         </Heading>
         <Paragraph>
-          Georgiy is a freelance and a full-stack developer based in Kaliningrad
+          Georgiy is a freelance and a full-stack developer based in Serbia, Belgrade
           with a passion for building digital services/stuff he wants. He has a
           knack for all things launching products, from planning and designing
           all the way to solving real-life problems with code.
@@ -179,31 +179,6 @@ const Home = () => (
             </Link>
           </ListItem>
         </List>
-
-        {/* <SimpleGrid columns={[1, 2, 2]} gap={6}>
-          <GridItem
-            href="https://www.youtube.com/devaslife"
-            title="Dev as Life"
-            thumbnail={thumbYouTube}
-          >
-            My YouTube channel (&gt;100k subs)
-          </GridItem>
-          <GridItem
-            href="https://www.inkdrop.app/"
-            title="Inkdrop"
-            thumbnail={thumbInkdrop}
-          >
-            A Markdown note-taking app
-          </GridItem>
-        </SimpleGrid> */}
-
-        {/* <Box align="center" my={4}>
-          <NextLink href="/posts" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              Popular posts
-            </Button>
-          </NextLink>
-        </Box> */}
       </Section>
     </Container>
   </Layout>
