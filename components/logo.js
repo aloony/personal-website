@@ -35,7 +35,7 @@ const Logo = () => {
             fontWeight="bold"
             ml={3}
           >
-            Georgiy Randuyk
+            Georgii Randiuk
           </Text>
         </LogoBox>
       </a>

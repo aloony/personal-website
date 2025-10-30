@@ -14,7 +14,7 @@ import Paragraph from '../components/paragraph'
 import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
-import { IoLogoGithub, IoLogoGoogle } from 'react-icons/io5'
+import { IoLogoGithub, IoLogoGoogle, IoLogoLinkedin } from 'react-icons/io5'
 import IoLogoTelegram from '../components/icons/telegram'
 import IoLogoHackerone from '../components/icons/hackerone'
 
@@ -33,15 +33,15 @@ const Home = () => (
         bg={useColorModeValue('whiteAlpha.500', 'whiteAlpha.200')}
         css={{ backdropFilter: 'blur(10px)' }}
       >
-        Hello, I&apos;m an indie app developer based in Russia!
+        Here is a cute puppy
       </Box>
 
       <Box display={{ md: 'flex' }}>
         <Box flexGrow={1} mb={5}>
           <Heading as="h2" variant="page-title">
-            Georgiy Randuyk
+            Georgii Randiuk
           </Heading>
-          <p>Digital Craftsman ( Artist / Developer / Designer )</p>
+          <p>Software Engineer</p>
         </Box>
         {/* <Box
           flexShrink={0}
@@ -72,21 +72,17 @@ const Home = () => (
 
       <Section delay={0.1}>
         <Heading as="h3" variant="section-title">
-          Work
+          General
         </Heading>
         <Paragraph>
-          Georgiy is a freelance and a full-stack developer based in Serbia, Belgrade
-          with a passion for building digital services/stuff he wants. He has a
-          knack for all things launching products, from planning and designing
-          all the way to solving real-life problems with code.
+          Hi! I'm a developer of a wide range of skills, but mostly backend, based in Serbia, Belgrade
+          with a passion for building digital services. I have a knack for building things
+          from the ground-up, starting from general design of the problem to solving it
+          with most appropriate for the job services and technologies. I also really like optimizing
+          my workflow and life in general with interesting technologies, such as, for example,
+          making my own Nixos/Linux system with dotfiles from which I could restore it on any
+          desktop/laptop in literal minutes. I think its a cool little project)
         </Paragraph>
-        <Box align="center" my={4}>
-          <NextLink href="/works" passHref scroll={false}>
-            <Button rightIcon={<ChevronRightIcon />} colorScheme="teal">
-              My portfolio
-            </Button>
-          </NextLink>
-        </Box>
       </Section>
 
       <Section delay={0.2}>
@@ -95,37 +91,55 @@ const Home = () => (
         </Heading>
         <BioSection>
           <BioYear>2003</BioYear>
-          Born in Moscow, Russia.
+          Born in Kazakhstan, Karaganda.
         </BioSection>
         <BioSection>
           <BioYear>2016</BioYear>
-          Started mastering art of code and design, making simple programs in
-          compiling languages (c, c++), creating 3d models, games and much more)
+          Moved to Russia at around 13 y.o,
+          changed several cities before
+          settling in Kaliningrad untill 18 y.o
+        </BioSection>
+        <BioSection>
+          <BioYear>2016</BioYear>
+          Started mastering art of code and design, making simple programs in compiled languages (c, c++, c#), creating 3d models, games and much more)
         </BioSection>
         <BioSection>
           <BioYear>2018</BioYear>
-          Worked as a Cyber Security Analyst on various hacking platforms.
+          Began putting my skills to use in various hacking platforms (hackerone, integrity, bugcrowd),
+          as well earning some money by working as a fullstack freelance developer (I was making website and mobile apps,
+          both frontend and backend, as well as deploying them on Linux servers of various distributions)
         </BioSection>
         <BioSection>
-          <BioYear>2020</BioYear>
-          Working as a freelance Developer on various freelancing platforms.
+          <BioYear>2021</BioYear>
+          At some point, due to personal reasons I dropped out of school in the 10th out of 11 grades.
+          Then, after going to colledge I dropped out yet again, this time with the intent to find
+          stable work in the industry. (I was quite busy during all these years in school and colledge
+          with learning new skills and generally bettering myself)
+        </BioSection>
+        <BioSection>
+          <BioYear>2021</BioYear>
+          Worked as a Cyber Security Analyst on various hacking platforms,
+          found a few vulnarabilities. Honestly, I didn't like the experience very much
+          due to it feeling more like a game of finding needle in a haystack and generally doing good enough recon
+          of the target product. While that is a good skill to have, I felt it wasn't as rewarding
+          as being able to create practically anything I could think of so long as my skills were up to par in
+          software development.
         </BioSection>
         <BioSection>
           <BioYear>2022 to present</BioYear>
-          Working at{' '}
-          <NextLink href="https://itexp.pro" passHref>
-            <Link target="_blank">IT Expert</Link>
+          Working in fintech at{' '}
+          <NextLink href="https://finstar.com" passHref>
+            <Link target="_blank">Finstar(DIGITAL FINANCE ITERNATIONAL), IT Expert</Link>
           </NextLink>{' '}
           as a Python Backend Developer
         </BioSection>
       </Section>
-
       <Section delay={0.3}>
         <Heading as="h3" variant="section-title">
-          I ♥
+          Other than Software Engineering, I ♥
         </Heading>
         <Paragraph>
-          Art, Music, Drawing, Playing Piano, Machine Learning
+          Art, Music, Playing Piano, Cinematography, Learning new languages (Serbian currently)
         </Paragraph>
       </Section>
 
@@ -134,6 +148,28 @@ const Home = () => (
           On the web
         </Heading>
         <List>
+          <ListItem>
+            <Link href="https://t.me/aloonyyy" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoTelegram />}
+              >
+                telegram
+              </Button>
+            </Link>
+          </ListItem>
+          <ListItem>
+            <Link href="https://linkedin.com/in/aloony" target="_blank">
+              <Button
+                variant="ghost"
+                colorScheme="teal"
+                leftIcon={<IoLogoLinkedin />}
+              >
+                linkedin
+              </Button>
+            </Link>
+          </ListItem>
           <ListItem>
             <Link href="https://github.com/aloony" target="_blank">
               <Button
@@ -153,17 +189,6 @@ const Home = () => (
                 leftIcon={<IoLogoGoogle />}
               >
                 npp3rzwi@gmail.com
-              </Button>
-            </Link>
-          </ListItem>
-          <ListItem>
-            <Link href="https://t.me/aloonyyy" target="_blank">
-              <Button
-                variant="ghost"
-                colorScheme="teal"
-                leftIcon={<IoLogoTelegram />}
-              >
-                telegram
               </Button>
             </Link>
           </ListItem>

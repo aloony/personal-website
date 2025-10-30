@@ -38,7 +38,7 @@ const stack = [
 ].join(' • ')
 
 const Stack = () => (
-  <Layout title="Works">
+  <Layout title="Stack">
     <Container>
       <Heading as="h3" fontSize={20} mb={4}>
         Stack
